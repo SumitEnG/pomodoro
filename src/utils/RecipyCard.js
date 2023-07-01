@@ -55,11 +55,9 @@ function RecipyCard() {
               </ul>
               <div className="author">
                 Published by:-
-                <div className="ml-8">
-                  {v.authorName}{" "}
-                  <span className="ml-6">{v.date.slice(0, 10)}</span>{" "}
-                </div>{" "}
+                <div className="ml-8">{v.authorName} </div>
               </div>
+              <div className="ml-6">{v.date.slice(0, 10)}</div>{" "}
               <div
                 className="showmore text-gray-400 font-bold text-end hover:cursor-pointer"
                 onClick={() => navigateToFullPage(v._id)}
