@@ -35,7 +35,7 @@ function RecipyCard() {
           <div className="card h-48  bg-slate-200 mx-4 my-2 rounded-xl flex ">
             <img
               className="h-2/4 rounded-lg my-10 mx-2 w-1/3 md:h-3/4 md:my-5"
-              src={v.imgUrl}
+              src={`https://recipe-backend-h0yr.onrender.com/${v?.imgUrl}`}
               alt=""
             />
             <div className="other_material flex flex-col w-2/3 text-sm md:text-base">
