@@ -44,6 +44,7 @@ function AddRecipe() {
       )
       .then((res) => {
         console.log(res.data);
+        toast.success("successfuly uploaded");
       })
       .catch((err) => toast.error(err.response.data));
   }
