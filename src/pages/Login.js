@@ -33,7 +33,7 @@ function Login() {
 
   return (
     <div className="main md: bg-white">
-      <div className="container max-w-md mx-auto h-screen bg-purple-400 flex flex-col ">
+      <div className="container max-w-md mx-auto h-screen bg-purple-400 flex flex-col shadow-lg">
         <Nav />
         <div className="container max-w-md mx-auto h-screen bg-purple-400 px-20 flex flex-col justify-center">
           <div className="c flex flex-col justify-around h-1/4">
