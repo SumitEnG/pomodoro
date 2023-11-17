@@ -84,6 +84,7 @@ function Nav() {
           <div
             onClick={() => {
               localStorage.removeItem("token");
+              localStorage.removeItem("userId");
               navigate("/");
             }}
             className="logOut hover:cursor-pointer p-2"
